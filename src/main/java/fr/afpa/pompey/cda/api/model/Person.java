@@ -13,25 +13,10 @@ public class Person {
     @Column(name="id")
     private Integer id;
 
-    @Column(name="Firstname")
+    @Column(name="firstname")
     private String firstName;
 
-    @Column(name="Lastname")
+    @Column(name="lastname")
     private String lastName;
 
-//
-//    public String getFirstName() {
-//        return this.firstName;
-//    }
-//
-//    public void setFirstName(String firstName) {
-//        this.firstName = firstName;
-//    }
-//
-//    public String getLastName() {
-//        return this.lastName;
-//    }
-//    public void setLastName(String lastName) {
-//        this.lastName = lastName;
-//    }
 }
