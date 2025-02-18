@@ -15,12 +15,12 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
+CREATE DATABASE springboot;
+USE springboot;
+
 --
 -- Table structure for table `person`
 --
-
-CREATE DATABASE springboot;
-use springboot;
 
 DROP TABLE IF EXISTS `person`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
@@ -53,6 +53,3 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2025-02-18 16:13:22
-
-  ("Drake","Thor"),
-  ("Strickland","Adrienne");
