@@ -16,7 +16,7 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 CREATE DATABASE `springboot`;
-USE `springboot`;
+USE springboot;
 
 --
 -- Table structure for table `person`
