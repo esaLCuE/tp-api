@@ -38,5 +38,3 @@ VALUES
   ("Stewart","Orlando"),
   ("Drake","Thor"),
   ("Strickland","Adrienne");
-  
-  select * from sys.database_files;
