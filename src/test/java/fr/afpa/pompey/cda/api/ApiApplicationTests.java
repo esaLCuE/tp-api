@@ -1,4 +1,3 @@
-/*
 package fr.afpa.pompey.cda.api;
 
 import org.junit.jupiter.api.Test;
@@ -12,4 +11,3 @@ class ApiApplicationTests {
     }
 
 }
-*/
