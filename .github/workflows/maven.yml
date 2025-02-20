@@ -96,6 +96,16 @@ jobs:
       - name: List files in the repository
         run: ls ${{github.workspace}}
 
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: Dockerfile
+          push: true
+          tags: ${{secrets.DOCKER_USER}}/api:latest
+
+      - run: echo "This job's status is ${{job.status}}."
+
 
       
 
