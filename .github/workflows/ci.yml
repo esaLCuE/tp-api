@@ -3,12 +3,12 @@ on:
     branches: [main]
     paths:
       - 'src/**'
-      - '.github/workflows/maven.yml'
+      - '.github/workflows/ci.yml'
   pull_request:
     branches: [main]
     paths:
       - 'src/**'
-      - '.github/workflows/maven.yml'
+      - '.github/workflows/ci.yml'
     types: [opened, synchronize, reopened]
 
 jobs:
