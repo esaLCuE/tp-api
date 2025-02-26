@@ -19,4 +19,6 @@ public class Person {
     @Column(name="lastname")
     private String lastName;
 
+    // comment
+
 }
